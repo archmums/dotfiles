@@ -1,0 +1,53 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "Agave Nerd Font r",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.external.windowsExec": "C:\\Windows\\system32\\wsl.exe -d Ubuntu",
+    "terminal.explorerKind": "external",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\Windows\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "workbench.editorAssociations": {
+        "*.sqlite3": "default"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "editor.fontSize": 15,
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "SynthWave '84",
+    "quokka.startViewStatusBar": true,
+    "quokka.automaticRestart": true,
+    "window.openFoldersInNewWindow": "off",
+    "vscode-edge-devtools.browserFlavor": "Stable"
+}
